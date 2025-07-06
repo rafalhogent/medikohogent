@@ -1,8 +1,10 @@
-# MedikoHoGent
+# Mediko HoGent
 **HoGent graduation thesis:**
 ## Cross-platform application with Vue, Quasar and NestJs
 
 This thesis aims to answer the question of whether a software development method based on using single source code in JavaScript/TypeScript and publication across multiple platforms can produce a reliable working application. This method could be very useful for developers whose code can also be published as standalone applications. The technologies used will include: Quasar, Vue, NestJS, Electron and Cordova.
+
+![Cross platform application with Quasar](./doc/img/cross_ptfm.webp "cross-platform")
 
 ## Language
 Both, frontend and backend use [TypeScript](https://www.typescriptlang.org/) programming language.
@@ -16,7 +18,7 @@ Client is a [Vue.Js](https://vuejs.org/) based [Quasar](https://quasar.dev) appl
 The application can be build for desktop (Windws, Linux & macOS) with [Electron](https://www.electronjs.org/) and for mobile (Android & iOS) with [Cordova](https://cordova.apache.org/)
 
 ### Installation
-First, Install the Quasar golbal CLI:
+First, Install the Quasar global CLI:
 ```shell
 npm i -g @quasar/cli
 ``` 
